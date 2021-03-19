@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Старт</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <!-- <link rel="stylesheet" href="css/obnulenie.css"> -->
+    <!-- <link rel="stylesheet" href="css/reset.css"> -->
+    <!-- <link rel="stylesheet" href="css/slick.css"> -->
+    <!-- <link rel="stylesheet" href="css/fonts.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    
+    <div class="app" id="app">
+        <header class="header">
+            <a href="/" class="logo">
+                <img class="logo-image" src="images/logo.png" alt="logo">
+            </a>
+            <a href="#" class="user">
+                <span class="user-name">Дима</span>
+                <img class="user-image" src="images/avatar.jpg" alt="">
+            </a>
+        </header>
+
+        <section class="film">
+            <img class="film-logo" src="images/film-logo.png" alt="Mortal Kombat">
+            <div class="tags">
+                <span class="date">2021</span>
+                <span class="genre">боевик, фэнтези, фантастика</span>
+                <span class="country">США</span>
+                <span class="age">18+</span>
+            </div>
+            <!-- /.tags -->
+            <p class="description">
+                Продолжение легендарного фильма из 90-х. Предстоит по-настоящему смертельная битва, где останется только сильнейший
+            </p>
+            <div class="button-group">
+                <a class="button button-primary" href="#gallery">Предзаказ фильма</a>
+                <a class="button button-default" data-fancybox href="https://www.youtube.com/watch?v=1ar_V1_uatA&ab_channel=%D0%92%D0%A0%D0%B5%D0%B9%D1%82%D0%B8%D0%BD%D0%B3%D0%B5">
+                    <img class="button-icon" src="images/play.svg" alt="">
+                    <span class="button-text">Смотреть трейлер</span>
+                </a>
+            </div>
+        </section>
+
+    </div>
+
+    
+
+    <div class="modal" data-fancybox="gallery" data-caption="Caption #1">
+        <h2 class="modal-title">Подписка на новости</h2>
+        <input class="modal-input" type="text" value="">
+        <button class="modal-btn">Подписатся</button>
+    </div>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/jquery.vide.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <!-- <script src="js/slick.min.js"></script> -->
+    <script src="js/main.js"></script>
+</body>
+</html>
