@@ -1,1 +1,1 @@
-# mortal-kombat [Demo] (https://dmitriifd.github.io/mortal-kombat/)
+mortal-kombat [Demo] (https://dmitriifd.github.io/mortal-kombat/)
